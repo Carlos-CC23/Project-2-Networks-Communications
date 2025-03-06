@@ -21,4 +21,5 @@ To decode, the receiver reads the signal in pairs: "L,H" means 0 and "H,L" means
 
 -----------------------------------------------------------------------------------------------------------
 When running the code on VS Code:
-  -You open the terminal and type in "strategies.py" and the program will and output the signal based on the input data.
+-
+-You open the terminal and type in "strategies.py" and the program will and output the signal based on the input data.
