@@ -25,5 +25,5 @@ How to run the code on VS Code:
 **Warning, you'll need to create a virtual environment to run it and to install matplotlib since that's used to plot the signal for each encoding.
 
 -Steps: 
--You open the Command prompt terminal (CMD) and type in ".venv\Scripts\Activate" . Then "pip install matplotlib".
--Next you type in "python strategies.py" into the same terminal and the program begin and follow the instructions.
+You open the Command prompt terminal (CMD) and type in ".venv\Scripts\Activate" . Then "pip install matplotlib".
+Next you type in "python strategies.py" into the same terminal and the program begin and follow the instructions.
