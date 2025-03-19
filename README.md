@@ -22,9 +22,10 @@ To decode, the receiver reads the signal in pairs: "L,H" means 0 and "H,L" means
 -----------------------------------------------------------------------------------------------------------
 How to run the code on VS Code:
 -
-**Warning, you'll need to create a virtual environment to run it and to install matplotlib since that's used to plot the signal for each encoding.
-
+-Warning, you'll need to create a virtual environment to run it and to install matplotlib since that's used to plot the signal for each encoding.
+-
 -Steps: 
+
 You open the Command prompt terminal (CMD) and type in ".venv\Scripts\Activate" . 
 
 Then "pip install matplotlib".
