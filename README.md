@@ -20,6 +20,10 @@ A 1 is encoded as a high-to-low transition (first half high, second half low; re
 To decode, the receiver reads the signal in pairs: "L,H" means 0 and "H,L" means 1.
 
 -----------------------------------------------------------------------------------------------------------
-When running the code on VS Code:
+How to run the code on VS Code:
 -
--You open the terminal and type in " python strategies.py" and the program will and output the signal based on the input data.
+**Warning, you'll need to create a virtual environment to run it and to install matplotlib since that's used to plot the signal for each encoding.
+
+-Steps: 
+-You open the Command prompt terminal (CMD) and type in ".venv\Scripts\Activate" . Then "pip install matplotlib".
+-Next you type in "python strategies.py" into the same terminal and the program begin and follow the instructions.
