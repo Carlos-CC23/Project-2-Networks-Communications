@@ -63,12 +63,16 @@ def plot_signal(ax, bit_data: str, encoding_name: str):
     ax.set_ylim(-0.2, 1.2)
     ax.set_xlim(0, len(levels))
 
-    # Remove numeric axes
-    ax.set_xticks([])
-    ax.set_yticks([])
+    # Customizing grid lines
+    ax.set_xticks(range(len(levels) + 1))
+    ax.set_yticks([0, 1])
+    ax.grid(True, linestyle='--', alpha=0.7)
+
+    # Optional: Hide axis labels and spines
+    ax.set_xticklabels([])
+    ax.set_yticklabels([])
     for spine in ax.spines.values():
         spine.set_visible(False)
-    ax.grid(False)
 
     ax.legend(loc='upper right')
 
