@@ -24,11 +24,12 @@ How to run the code on VS Code:
 -
 -Warning, you'll need to create a virtual environment to run it and to install matplotlib since that's used to plot the signal for each encoding.
 -
+-NOT 100% SURE IF U NEED TO HAVE A PYTHON INTERPRETER INSTALLED, BUT IF U DO, INSTALL IT :/
+-
 -Steps: 
-
-You open the Command prompt terminal (CMD) and type in ".venv\Scripts\Activate" . 
-
-Then "pip install matplotlib".
-
-
-Next you type in "python strategies.py" into the same terminal and the program begin and follow the instructions.
+-
+1) You open PowerShell and first type in --> py -3 -m venv .venv
+2) Then type in --> .venv\Scripts\Activate 
+3) Next, in the same prompt, u type in --> pip install matplotlib 
+4) Once it's installed :
+    Next you type in "python strategies.py" into the same terminal and the program begin and follow the instructions.
