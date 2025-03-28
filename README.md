@@ -19,6 +19,17 @@ A 0 is encoded as a low-to-high transition (first half low, second half high; we
 A 1 is encoded as a high-to-low transition (first half high, second half low; represented as "H", "L").
 To decode, the receiver reads the signal in pairs: "L,H" means 0 and "H,L" means 1.
 
+-
+-------------------------------------------------------------------------------------------------------------------------------------------
+-
+
+This Python program provides a graphical user interface (GUI) using Tkinter that allows users to visualize how binary data is encoded using three different line encoding techniques: 
+**NRZ (Non-Return to Zero)**, 
+**NRZI (Non-Return to Zero Inverted)**, and 
+**Manchester encoding**. 
+
+Upon entering a binary string (composed of 0s and 1s) into the input field and clicking the “Enter” button, the program performs encoding on the input and displays the results both as text and as waveforms. The encoding logic is handled by dedicated functions that transform the binary input into signal levels represented by 'H' (high) and 'L' (low). These are then translated into numerical levels (1 and 0) for plotting purposes. The visual representation is rendered using Matplotlib, embedded within the Tkinter GUI. The interface is structured into sections: an overview that explains the functionality, an input field with a submission button, a text area showing encoded string outputs, and a figure area where the waveforms for each encoding type are plotted on separate subplots. This tool is useful for educational purposes, particularly for understanding digital communication encoding schemes visually and interactively.
+
 -----------------------------------------------------------------------------------------------------------
 How to run the code on VS Code:
 -
